@@ -1,7 +1,7 @@
 import Slider from "../../components/photosSlider/Slider";
-import Tabs from "./components/tabs/Tabs";
 import UseHelmet from "../../hooks/UseHelmet";
 import SuggestedProducts from "./components/productCard/SuggestedProducts";
+import Tabs from "./components/tabs/Tabs";
 
 export default function Home() {
   return (
