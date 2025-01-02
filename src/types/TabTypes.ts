@@ -1,7 +1,4 @@
-
-
-
 export interface TabTypes {
-    icon: any,
-    title:string
+  icon: any;
+  title: string;
 }

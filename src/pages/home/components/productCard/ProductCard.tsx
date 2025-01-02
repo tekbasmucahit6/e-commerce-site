@@ -16,7 +16,7 @@ export default function ProductCard({ dt, i }: ProductCardTypes) {
             className=" w-[225px] h-[300px]"
             alt=""
           />
-          <div className="absolute bg-white text-2xl shadow-xl cursor-pointer rounded-full p-2 top-2 right-2">
+          <div className="absolute bg-white text-2xl shadow-xl cursor-pointer rounded-full p-2 top-2 right-0">
             <FaRegHeart />
           </div>
         </div>
@@ -38,8 +38,9 @@ export default function ProductCard({ dt, i }: ProductCardTypes) {
           </div>
         </div>
 
-        <div className="w-full h-full flex justify-start items-end text-2xl">
+        <div className="w-full h-full flex justify-between items-end text-2xl">
           <strong>{dt.price} TL</strong>
+          <button className="text-sm bg-primaryBlue px-3 py-2 rounded-10 text-white shadow-lg">Sepete ekle</button>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Service from "../components/service/Service";
 import NoAuthRoutes from "../routes/NoAuthRoutes";
@@ -15,6 +16,7 @@ export default function Layouts() {
       <div className="fixed bottom-5 right-5">
         <Service />
       </div>
+      <Footer />
     </>
   );
 }

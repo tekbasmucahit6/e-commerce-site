@@ -11,6 +11,7 @@ export default {
       primaryBlue:"#03045e",
       lightBlue: "#0077b6",
       white: "#FFFFFF",
+      wightGray:"#252422"
     },
     borderRadius:{
       10:"10px",
