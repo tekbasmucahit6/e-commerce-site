@@ -5,25 +5,26 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    backgroundColor:{
-      test:"red",
-      primaryGray:"#284b63",
-      primaryBlue:"#03045e",
-      lightBlue: "#0077b6",
-      white: "#FFFFFF",
-      wightGray:"#252422"
+    extend: {
+      backgroundColor:{
+        test:"red",
+        primaryGray:"#284b63",
+        primaryBlue:"#03045e",
+        lightBlue: "#0077b6",
+        white: "#FFFFFF",
+        wightGray:"#252422"
+      },
+      borderRadius:{
+        10:"10px",
+        15:"15px",
+        20:"20px",
+        full:"50%",
+      },
+      colors:{
+        primaryBlue:"#03045e",
+        white:"white",
+      },
     },
-    borderRadius:{
-      10:"10px",
-      15:"15px",
-      20:"20px",
-      full:"50%",
-    },
-    colors:{
-      primaryBlue:"#03045e",
-      white:"white",
-    },
-    extend: {},
   },
   plugins: [],
 }

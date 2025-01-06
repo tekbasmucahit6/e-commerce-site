@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ProductCard from "./ProductCard";
-import fetchHandle from "../../../../hooks/UseFetchGet";
+import fetchHandle from "../../../../hooks/useFetchGet";
 export default function SuggestedProducts() {
   const { data, loading, getData } = fetchHandle();
   useEffect(() => {
