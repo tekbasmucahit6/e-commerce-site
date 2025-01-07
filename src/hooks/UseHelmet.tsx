@@ -1,7 +1,11 @@
 import { Helmet } from "react-helmet-async";
 import { HelmetTypes } from "../types/HelmetTypes";
 
-export default function UseHelmet({title,description,keywords}:HelmetTypes) {
+export default function useHelmet({
+  title,
+  description,
+  keywords,
+}: HelmetTypes) {
   return (
     <Helmet>
       <meta charSet="utf-8" />
