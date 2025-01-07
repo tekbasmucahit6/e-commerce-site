@@ -13,7 +13,7 @@ export default function Home() {
       />
       <div className="flex flex-col justify-start items-center w-full z-0">
         <Slider />
-        SELAMMAA
+        SELAMMAA dsf fef 646346 gfdgdfg
         <Tabs />
         SELAM
         <SuggestedProducts />
