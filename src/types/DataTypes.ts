@@ -4,7 +4,7 @@ export interface DataTypes {
   price: number;
   description: string;
   category: string;
-  image: string;
+  thumbnail: string;
   rating: Rating;
 }
 

@@ -1,6 +1,10 @@
 import Layouts from "./layouts/Layouts";
-import "./index.css"
+import "./App.css";
 
 export default function App() {
-  return <Layouts />
+  return (
+    <>
+      <Layouts />
+    </>
+  );
 }
