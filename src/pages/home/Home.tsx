@@ -15,6 +15,7 @@ export default function Home() {
         <Slider />
         NABER LAN AHMET
         <Tabs />
+        SELAM
         <SuggestedProducts />
       </div>
     </>
