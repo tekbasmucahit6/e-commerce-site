@@ -1,5 +1,5 @@
 import Slider from "../../components/photosSlider/Slider";
-import UseHelmet from "../../hooks/UseHelmet";
+import UseHelmet from "../../hooks/useHelmet";
 import SuggestedProducts from "./components/productCard/SuggestedProducts";
 import Tabs from "./components/tabs/Tabs";
 

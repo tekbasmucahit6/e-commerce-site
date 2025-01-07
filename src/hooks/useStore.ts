@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
 export const productsData = create((set) => ({
-    data:[],
-    setData: (data) => set(data)
-}))
+  data: [],
+  setData: (data: any) => set(data),
+}));
